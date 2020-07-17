@@ -37,3 +37,24 @@ def blog3():
 def blog4():
     print("Got the hit")
     return render_template("mod_blog/iot-in-buildings.html")
+
+@mod_blog.route('/operations-maintenance-manual', methods=['GET', 'POST'])
+def blog5():
+    print("Got the hit")
+    return render_template("mod_blog/ops-manual.html")
+
+@mod_blog.route('/scheduled-maintenance', methods=['GET', 'POST'])
+def blog6():
+    print("Got the hit")
+    return render_template("mod_blog/schedule-maintenance.html")
+
+@mod_blog.route('/warehouse-logistics', methods=['GET', 'POST'])
+def blog7():
+    print("Got the hit")
+    return render_template("mod_blog/warehouse-logistics.html")
+
+
+@mod_blog.route('/workorder-software', methods=['GET', 'POST'])
+def blog8():
+    print("Got the hit")
+    return render_template("mod_blog/work-order-software.html")

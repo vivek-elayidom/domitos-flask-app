@@ -1,0 +1,26 @@
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/1x/assets-small-20.jpg - Done
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/1x/maintenance-man.jpg - Done
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/1x/sales-20.jpg
+
+https://domitos.com/bitnami/images/corner-logo.png
+
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/insights.jpg 
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/control-tower.jpg 
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/inspections.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/client-portal.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/asset-mgmt.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/t1.png
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/t2.png
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/t3.png
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/blog1.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/blog2.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/blog3.jpg
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/t4.jpg
+
+https://domitos.com/wp-content/themes/themeOne/img/core-img/hero-4-2.png
+https://domitos.com/wp-content/themes/themeOne/img/core-img/testimonial.png
+https://domitos.com/wp-content/themes/themeOne/img/core-img/logo.png
+https://domitos.com/wp-content/themes/themeOne/img/bg-img/corona2.jpg
+https://domitos.com/wp-content/themes/themeOne/img/core-img/hero-4.png
+https://domitos.com/wp-content/themes/themeOne/img/core-img/domitos-white.png
+https://domitos.com/bitnami/images/close.png

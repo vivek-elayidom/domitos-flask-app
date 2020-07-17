@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "/head.html" %}
+
+<body>
+    <!-- Preloader
+    <div class="preloader" id="preloader">
+        <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
+    </div>-->
+    <!-- Header Area-->
+    {% include "/header.html" %}
+    <!-- Welcome Area-->
+    <div class="container">
+        <div class="row   justify-content-lg-between">
+            <!-- About Thumbnail Area-->
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <img style="margin-top: 170px;" class="w-100" src="/static/img/features/vendor1.png" alt="">
+            </div>
+            <!-- About Us Content Area-->
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="feature-area feature3 section-padding-120-70">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-12 col-md-12">
+                                <!-- Feature Content-->
+                                <div class="feature--content mb-50">
+                                    <h6>Manage all vendors through a single window</h6>
+                                    <h2>Vendor Management</h2>
+                                    <p>The module creates, manages the vendors in the application</p>
+                                    <ul>
+                                        <li>Blacklist vendors if required</li>
+                                        <li>Register and track vendors in the application</li>
+                                        <li>Support for preferred vendors for various items to be purchased </li>
+                                        <li>Collect and store multiple quotes for the same item from various vendors</li>
+                                        <li>Setup automatic rules for managing preferred vendors such as expiry date & price trend analysis</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="cta-area cta3 py-5" style="margin-top:15px">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-sm-8">
+                    <div class="cta-text mb-4 mb-sm-0">
+                        <h4 class="text-white mb-0">Request a demo to see how Domitos can help in Managing COVID </h4>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 text-sm-right"><a class="btn saasbox-btn white-btn" href="#">Request a Demo</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cookie Alert Area-->
+    <div class="cookiealert mb-0" role="alert" style="display: none;">
+        <p>This site uses cookies. We use cookies to ensure you get the best experience on our website. For details, please check our <a href="#" target="_blank"> Privacy Policy.</a></p>
+        <button class="btn btn-primary acceptcookies" type="button" aria-label="Close">I agree</button>
+    </div>
+    <!-- Footer Area-->
+    {% include "/footer.html" %}
+
+    <!-- All JavaScript Files-->
+    {% include "/all_js.html" %}
+</body>
+
+</html>

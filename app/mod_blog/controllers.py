@@ -1,0 +1,39 @@
+from flask import Blueprint, request, render_template, \
+                  flash, g, session, redirect, url_for,jsonify
+
+# Import password / encryption helper tools
+from werkzeug.security import check_password_hash, generate_password_hash
+from werkzeug.utils import secure_filename
+
+# Import the database object from the main app module
+from app import db
+from app import app
+import time 
+from datetime import datetime
+import os
+
+mod_blog = Blueprint('blog', __name__, url_prefix='/blog')
+
+
+
+#Building Maintenance
+@mod_blog.route('/building-maintenance', methods=['GET', 'POST'])
+def blog1():
+    print("Got the hit")
+    return render_template("mod_blog/building-maintenance.html")
+
+#Facility management Companies
+@mod_blog.route('/facility-management-companies', methods=['GET', 'POST'])
+def blog2():
+    print("Got the hit")
+    return render_template("mod_blog/facility-management-comps.html")
+
+@mod_blog.route('/inventory-management-software', methods=['GET', 'POST'])
+def blog3():
+    print("Got the hit")
+    return render_template("mod_blog/inventory-management-soft.html")
+
+@mod_blog.route('/iot-in-buildings', methods=['GET', 'POST'])
+def blog4():
+    print("Got the hit")
+    return render_template("mod_blog/iot-in-buildings.html")

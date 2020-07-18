@@ -58,3 +58,5 @@ def blog7():
 def blog8():
     print("Got the hit")
     return render_template("mod_blog/work-order-software.html")
+
+    

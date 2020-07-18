@@ -88,6 +88,10 @@ html {
     overflow-x: hidden;
 }
 
+strong {
+    color: peru;
+}
+
 h1,
 h2,
 h3,
@@ -100,7 +104,7 @@ h6 {
 }
 
 p {
-    color: #8380ae;
+    color: #44434b;
     line-height: 1.9;
     font-size: 1rem;
 }
@@ -136,6 +140,35 @@ ul li,
 ol li {
     list-style: none;
     text-decoration: none;
+}
+
+ol.number-list li {
+    list-style: decimal;
+    margin-left: 20px;
+    color: rgb(122, 122, 122);
+    font-weight: 500;
+}
+
+ol.number-list li:hover,
+ol.number-list li:focus {
+    list-style: decimal;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(122, 122, 122);
+    font-weight: 500;
+}
+
+ol.roman-list li {
+    list-style: upper-roman;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+ol.roman-list li:hover,
+ol.roman-list li:focus {
+    list-style: upper-roman;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 ul li:hover,

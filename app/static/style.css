@@ -109,6 +109,35 @@ p {
     font-size: 1rem;
 }
 
+h1.blog {
+    font-size: 50px !important;
+}
+
+h2.blog {
+    font-size: 28px !important;
+}
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0 !important;
+    border: 1px solid #aaa !important;
+    display: table !important;
+    font-size: 95% !important;
+    margin-bottom: 1em !important;
+    padding: 20px !important;
+    width: auto !important;
+}
+
+.toc_title {
+    font-weight: 700!important;
+    text-align: center !important;
+}
+
+#toc_container li,
+#toc_container ul,
+#toc_container ul li {
+    list-style: outside none none !important;
+}
+
 a,
 a:hover,
 a:focus {
@@ -161,14 +190,18 @@ ol.number-list li:focus {
 ol.roman-list li {
     list-style: upper-roman;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    color: rgb(122, 122, 122);
+    font-weight: 500;
 }
 
 ol.roman-list li:hover,
 ol.roman-list li:focus {
     list-style: upper-roman;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    color: rgb(122, 122, 122);
+    font-weight: 500;
 }
 
 ul li:hover,

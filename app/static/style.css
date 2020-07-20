@@ -124,18 +124,26 @@ h2.blog {
     font-size: 95% !important;
     margin-bottom: 1em !important;
     padding: 20px !important;
-    width: auto !important;
+    width: 200px !important;
+    position: fixed !important;
 }
 
 .toc_title {
     font-weight: 700!important;
     text-align: center !important;
+    font-size: 70%;
 }
 
 #toc_container li,
 #toc_container ul,
 #toc_container ul li {
     list-style: outside none none !important;
+}
+
+@media screen and (max-width: 998px) {
+    .sidebar-blog {
+        display: none !important;
+    }
 }
 
 a,

@@ -54,7 +54,7 @@ def blog7():
     return render_template("mod_blog/warehouse-logistics.html")
 
 
-@mod_blog.route('/workorder-software', methods=['GET', 'POST'])
+@mod_blog.route('/work-order-software', methods=['GET', 'POST'])
 def blog8():
     print("Got the hit")
     return render_template("mod_blog/work-order-software.html")
